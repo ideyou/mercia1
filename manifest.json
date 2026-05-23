@@ -1,0 +1,19 @@
+{
+  "id": "MERCIAHUB",
+  "name": "Lista de viagem da Mércia",
+  "short_name": "Lista de viagem da Mércia",
+  "scope": "./",
+  "start_url": "./",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "profile.avif",
+      "sizes": "any",
+      "type": "image/avif"
+    }
+  ],
+  "app_name": "Lista de viagem da Mércia",
+  "description": "Minha volta ao mundo 🌍✨"
+}
