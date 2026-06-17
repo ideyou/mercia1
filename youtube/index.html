@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula de css</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background: #ccc;
+    }
+
+    h1 {
+      background-color: purple;
+    }
+
+    p {
+      color: red;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <script src="script.js"></script>
+
+
+
+
+
+
+  <!--Titulos de h1 ate h6-->
+  <h1>que legal</h1>
+  <h2>que legal</h2>
+  <h3>que legal</h3>
+  <h4 class="azul">que legal</h4>
+  <h5 class="azul">que legal</h5>
+  <h6 class="azul">que legal</h6>
+
+  <!--Paragrafos-->
+  <p>Este é um paragrafo de texto.</p>
+  <p class="azul">Este é um paragrafo de texto.</p>
+  <p>Este é um paragrafo de texto.</p>
+
+  <!--Links-->
+  <a href="pagina2.html">visite a outra pagina</a>
+
+  <br><br>
+
+  <!--imagens-->
+  <img src="https://adimax.com.br/wp-content/uploads/2022/05/cuidados-filhote-de-cachorro.jpg" alt="imagem de texto">
+  <br><br>
+
+  <!--FORMULÁRIOS-->
+  <form>
+    <input type="email" placeholder="seu e-mail">
+    <button>cadastrar</button>
+  </form>
+
+</body>
+
+<body>
+<button id="btn">mudar fundo</button>
+<script>
+     document.getElementById("btn").onclick = () => {
+          document.body.style.backgroundcolor = "blue";
+     };
+
+     </script>
+</body>
+  
+</html>
